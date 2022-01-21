@@ -57,6 +57,11 @@ class TargetWidget extends StatelessWidget {
                   blurRadius: 10.0,
                   spreadRadius: 1.0,
                   offset: Offset(10, 10)),
+              BoxShadow(
+                  color: Colors.white12,
+                  blurRadius: 10.0,
+                  spreadRadius: 1.0,
+                  offset: Offset(-10, -10))
             ],
           ),
         ),
